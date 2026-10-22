@@ -33,5 +33,7 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
-figures/*
-!figures/.gitkeep
+figures/drafts/*
+!figures/drafts/.gitkeep
+figures/final/*
+!figures/final/.gitkeep

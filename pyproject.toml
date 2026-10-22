@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mathmodeling2026"
+name = "publication-figures"
 version = "0.1.0"
-description = "Reproducible workspace for mathematical modeling in 2026"
+description = "Reproducible, publication-ready scientific figures"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -22,6 +22,11 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "pytest>=8.0",
+]
+publication = [
+    "SciencePlots>=2.1",
+    "kaleido>=0.2.1",
+    "pypdf>=4.0",
 ]
 
 [tool.setuptools.packages.find]

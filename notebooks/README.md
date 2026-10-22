@@ -1,3 +1,3 @@
 # Notebooks
 
-用于数据探索和快速实验。稳定、可复用的代码应整理到 `src/mathmodeling2026/`。
+用于数据探索和快速试图。确定图型后，应把稳定代码整理到 `examples/` 或 `src/publication_figures/`。
