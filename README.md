@@ -57,10 +57,11 @@ python examples/demo_figure.py
 
 ## 在 Codex 中使用
 
-仓库包含两个互补的项目级绘图 Skill：
+仓库包含三个互补的项目级绘图 Skill：
 
 - `scipilot-figure-skill`：先分析数据和论证目标，再选图、绘制并做视觉自检。
 - `scientific-figure-making`：复用 figures4papers 的静态 Matplotlib 排版、配色和导出规范（CC BY-NC 4.0，仅限非商业用途并需保留署名）。
+- `academic-figure-skill`：提供 Nature/Cell/Science 规范、29+ 图型资产、Python/R 示例和自动 QA 工具（Apache-2.0）。
 
 可以直接这样描述任务：
 
@@ -69,6 +70,7 @@ python examples/demo_figure.py
 这张图要论证的是：实验组相对对照组显著改善了目标指标。
 请先剖析数据并推荐图型，确认后再绘制。
 最终静态图请同时遵循 scientific-figure-making 的出版样式规范。
+如需 PCA、火山图、相关矩阵、AUROC、桑基图或复杂多面板，优先检索 academic-figure-skill 的资产库。
 目标期刊为 Nature，使用单栏尺寸，输出 PDF、SVG 和 300 DPI PNG。
 预览放入 figures/drafts/，检查通过的版本放入 figures/final/。
 ```
